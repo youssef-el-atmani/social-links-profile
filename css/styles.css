@@ -24,4 +24,12 @@ html {
   --grey-700: #333333;
   --white: #ffffff;
   --green: #c4f82a;
+
+  /* spacing */
+  --space-500: 40px;
+  --space-300: 24px;
+  --space-200: 16px;
+  --space-150: 12px;
+  --space-100: 8px;
+  --space-50: 4px;
 }
