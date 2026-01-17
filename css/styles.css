@@ -48,3 +48,9 @@ html {
   font-family: "interRegular";
   src: url("./../assets/fonts/static/Inter-Regular.ttf");
 }
+
+/* body */
+body {
+  background-color: var(--grey-900);
+  min-height: 100vh;
+}
