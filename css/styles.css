@@ -77,4 +77,5 @@ main {
 
 .links-card > img {
   margin-bottom: var(--space-300);
+  border-radius: 50%;
 }
