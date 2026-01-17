@@ -120,12 +120,15 @@ main {
   gap: var(--space-200);
 }
 
-.social-links a {
-  text-decoration: none;
+a {
+  border: none;
 }
 
-.social-links button {
+.social-links .link {
+  text-align: center;
   cursor: pointer;
+  text-decoration: none;
+
   width: 100%;
   padding-block: var(--space-150);
   border-radius: 12px;
@@ -135,8 +138,8 @@ main {
   color: var(--white);
 }
 
-.social-links button:hover,
-.social-links button:focus {
+.social-links .link:hover,
+.social-links .link:focus {
   background-color: var(--green);
   color: var(--grey-700);
 }
