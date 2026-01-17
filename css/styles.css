@@ -69,4 +69,12 @@ main {
   padding: var(--space-500);
   border-radius: 12px;
   max-width: 384px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-card > img {
+  margin-bottom: var(--space-300);
 }
