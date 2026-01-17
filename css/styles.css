@@ -79,3 +79,15 @@ main {
 .links-card > img {
   border-radius: 50%;
 }
+
+/* name & location */
+.name-location .name {
+  font-family: interBold, sans-serif;
+  font-size: var(--text-preset-1);
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--white);
+
+  margin-bottom: var(--space-50);
+}
