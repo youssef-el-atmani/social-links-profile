@@ -15,3 +15,13 @@ html {
   padding: 0;
   border: none;
 }
+
+/* Custom CSS variable */
+:root {
+  /* colors */
+  --grey-900: #141414;
+  --grey-800: #1f1f1f;
+  --grey-700: #333333;
+  --white: #ffffff;
+  --green: #c4f82a;
+}
