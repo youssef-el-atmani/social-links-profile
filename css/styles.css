@@ -32,4 +32,8 @@ html {
   --space-150: 12px;
   --space-100: 8px;
   --space-50: 4px;
+
+  /* font-size */
+  --text-preset-1: 24px;
+  --text-preset-2: 14px;
 }
