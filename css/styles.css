@@ -91,3 +91,13 @@ main {
 
   margin-bottom: var(--space-50);
 }
+
+.name-location .location {
+  font-family: "interBold", sans-serif;
+  font-size: var(--text-preset-2);
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--green);
+  font-style: normal;
+}
