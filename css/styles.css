@@ -73,9 +73,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: var(--space-300);
 }
 
 .links-card > img {
-  margin-bottom: var(--space-300);
   border-radius: 50%;
 }
