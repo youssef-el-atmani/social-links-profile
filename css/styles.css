@@ -61,6 +61,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-inline: var(--space-300);
 }
 
 /* social-links card */
@@ -137,4 +138,31 @@ main {
 .social-links button:hover {
   background-color: var(--green);
   color: var(--grey-700);
+}
+
+/* for narrow screens */
+
+/* I added precisely so that the transition only happen for narrow screens
+The problem I had is that when I declare the transition in "global .links-card"
+one the page opens the first time, the transition happens, which not desirable.
+
+And if I added only in the screens that has `max-width: 375px`, if you used an
+responsive width, once you go from outside that interval (> 375px) and you reach
+that (=< 375px) or less, that transition appears as expected, but if you go from that
+interval [0px, 375px] to outside (>375px), an instant change happen, meaning the
+transition isn't working as I would,
+
+That's why I added that transition in 400px, I choose it arbitrary, but the important
+is that it is greater than `375px`, and less than most `vw` of wide screens, meaning when
+you first open this page, you won't see padding applied gradually.
+*/
+@media screen and (max-width: 400px) {
+  .links-card {
+    transition: padding 1s ease;
+  }
+}
+@media screen and (max-width: 375px) {
+  .links-card {
+    padding: var(--space-300);
+  }
 }
