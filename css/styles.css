@@ -8,3 +8,10 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+/* Reset spacing */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
