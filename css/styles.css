@@ -166,3 +166,24 @@ you first open this page, you won't see padding applied gradually.
     padding: var(--space-300);
   }
 }
+
+/* footer */
+footer {
+  margin-bottom: var(--space-200);
+}
+
+.attribution,
+.attribution * {
+  font-family: "interRegular", sans-serif;
+  font-size: var(--text-preset-2);
+  color: var(--white);
+}
+
+.attribution a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--green);
+}
+.attribution a:hover {
+  color: var(--green);
+}
