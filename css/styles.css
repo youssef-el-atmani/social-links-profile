@@ -53,4 +53,20 @@ html {
 body {
   background-color: var(--grey-900);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* social-links card */
+.links-card {
+  background-color: var(--grey-800);
+  padding: var(--space-500);
+  border-radius: 12px;
+  max-width: 384px;
 }
