@@ -110,3 +110,31 @@ main {
   letter-spacing: 0;
   color: var(--white);
 }
+
+/* social links */
+.links-card .social-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: var(--space-200);
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.social-links button {
+  cursor: pointer;
+  width: 100%;
+  padding-block: var(--space-150);
+  border-radius: 12px;
+  background-color: var(--grey-700);
+  font-family: "interBold", sans-serif;
+  font-size: var(--text-preset-2);
+  color: var(--white);
+}
+
+.social-links button:hover {
+  background-color: var(--green);
+  color: var(--grey-700);
+}
