@@ -195,3 +195,7 @@ footer {
   color: var(--green);
   text-decoration-color: var(--green);
 }
+.attribution a:active {
+  color: var(--white);
+  text-decoration-color: var(--white);
+}
