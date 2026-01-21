@@ -185,12 +185,13 @@ footer {
 
 .attribution a:link {
   color: var(--white);
-  text-decoration: none;
-  border-bottom: 1px solid var(--green);
+  text-decoration: underline solid 1px var(--white);
 }
 .attribution a:visited {
   color: var(--grey-700);
+  text-decoration-color: var(--grey-700);
 }
 .attribution a:hover {
   color: var(--green);
+  text-decoration-color: var(--green);
 }
